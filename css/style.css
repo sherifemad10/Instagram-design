@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    max-width: 1300px;
+}
+
+/* menu */
+.menu{
+    width: 200px;
+    height: 100vh;
+    padding: 20px;
+    border-right: 0.1px solid rgba(255, 255, 255, 0.049);
+    position: fixed;
+    
+}
+/* home */
+.hom{
+    margin-top: 30px;
+}
+/* ul */
+ul{
+    position: relative;
+    height: 95%;
+}
+ul li a{
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: 0.5s;
+}
+ul li a:hover{
+    background-color: #ffffff0a;
+    transform: scale(1.02);
+}
+/* profile */
+
+.pro img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    align-items: center;
+
+}
+/* more */
+.more{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* icons */
+ul li a i{
+font-size: 20px;
+
+}
+/* logo */
+.tittle i{
+    display: none;
+
+}
+.tittle h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    font-weight: 100;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+/* story */
+.story{
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: -206rem;
+}
+/* mosalah */
+.mostory .main{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+align-items: center;
+border: 2px solid rgba(255, 45, 97, 0.895);
+margin-right: 20px
+
+}
+.mostory p{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+/* filgoal */
+.filg .main{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    align-items: center;
+    border: 2px solid rgba(255, 45, 97, 0.895);
+    margin-right: 25px;    
+}
+.filg p{
+ display: flex;
+ align-items: center;
+ padding-left: 10px;
+}
+/* inter */
+.inter .main{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+align-items: center;
+border: 2px solid rgba(255, 45, 97, 0.895);
+margin-right: 20px;
+    
+}
+.inter p{
+ display: flex;
+ align-items: center;
+ padding-right: 15px;
+
+}
+/* messi */
+.mess .main{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    align-items: center;
+    border: 2px solid rgba(255, 45, 97, 0.895);
+    margin-right: 25px; 
+
+}
+.mess p{
+ display: flex;
+ align-items: center;
+ padding-left: 10px;
+}
+/* post */
+.post{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+/* leo */
+.leo{
+    width: 500px;
+    height: 700px;
+    margin-top: 35%;
+    margin-left: -60%;
+    
+}
+.le{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.le a .log{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    border: 2px solid rgba(255, 45, 97, 0.895); 
+   margin-right: 5px;
+   cursor: pointer;
+}
+.le img{
+    width: 12px;
+    height: 12px;
+    align-items: center;
+    margin:3px ; 
+}
+.le span{
+    font-size: 15px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.352);
+ }
+.le svg{
+margin-left: 60%;
+cursor: pointer;
+}
+/* img-post */
+.img-post img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+/* like */
+.like svg{
+   margin: 6px;
+}
+.like svg:hover{
+    opacity: 0.5;
+}
+.like .save{
+    margin-left: 60%;
+}
+/* likes */
+.likes b{
+    cursor: pointer;
+}
+.likes p{
+    margin-bottom: 10px;
+}
+.likes span{
+    padding-bottom: 6px;
+
+}
+.likes .comm{
+    opacity: .5;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.likes input{
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    outline: none;
+}
+hr {
+    opacity: 0.5;
+}
+/* filgoal */
+.fli{
+    width: 500px;
+    height: 700px;
+    margin-top: 10%;
+    margin-left: -60%;
+    
+}
+.le{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.le a .log{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    border: 2px solid rgba(255, 45, 97, 0.895); 
+   margin-right: 5px;
+   cursor: pointer;
+}
+.le img{
+    width: 12px;
+    height: 12px;
+    align-items: center;
+    margin:3px ; 
+}
+.le span{
+    font-size: 15px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.352);
+ }
+.fli .le svg{
+margin-left: 65%;
+cursor: pointer;
+}
+/* img-post */
+.img-post img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+/* like */
+.like svg{
+   margin: 6px;
+}
+.like svg:hover{
+    opacity: 0.5;
+}
+.like .save{
+    margin-left: 60%;
+}
+/* likes */
+.likes b{
+    cursor: pointer;
+}
+.likes p{
+    margin-bottom: 10px;
+}
+.likes span{
+    padding-bottom: 6px;
+
+}
+.likes .comm{
+    opacity: .5;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.likes input{
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    outline: none;
+}
+hr {
+    opacity: 0.5;
+}
+/* inter */
+.int{
+    width: 500px;
+    height: 700px;
+    margin-top: 40%;
+    margin-left: -60%;
+    
+}
+.le{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.le a .log{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    border: 2px solid rgba(255, 45, 97, 0.895); 
+   margin-right: 5px;
+   cursor: pointer;
+}
+.le img{
+    width: 12px;
+    height: 12px;
+    align-items: center;
+    margin:3px ; 
+}
+.le span{
+    font-size: 15px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.352);
+ }
+.int .le svg{
+margin-left: 65%;
+cursor: pointer;
+}
+/* img-post */
+.img-post img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+/* like */
+.like svg{
+   margin: 6px;
+}
+.like svg:hover{
+    opacity: 0.5;
+}
+.like .save{
+    margin-left: 60%;
+}
+/* likes */
+.likes b{
+    cursor: pointer;
+}
+.likes p{
+    margin-bottom: 10px;
+}
+.likes span{
+    padding-bottom: 6px;
+
+}
+.likes .comm{
+    opacity: .5;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.likes input{
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    outline: none;
+}
+hr {
+    opacity: 0.5;
+}
+/* mosalah */
+.mosa{
+    width: 500px;
+    height: 700px;
+    margin-top: 40%;
+    margin-left: -60%;
+    
+}
+.le{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.le a .log{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    border: 2px solid rgba(255, 45, 97, 0.895); 
+   margin-right: 5px;
+   cursor: pointer;
+}
+.le img{
+    width: 12px;
+    height: 12px;
+    align-items: center;
+    margin:3px ; 
+}
+.le span{
+    font-size: 15px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.352);
+ }
+.mosa .le svg{
+margin-left: 65%;
+cursor: pointer;
+}
+/* img-post */
+.img-post img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+/* like */
+.like svg{
+   margin: 6px;
+}
+.like svg:hover{
+    opacity: 0.5;
+}
+.like .save{
+    margin-left: 60%;
+}
+/* likes */
+.likes b{
+    cursor: pointer;
+}
+.likes p{
+    margin-bottom: 10px;
+}
+.likes span{
+    padding-bottom: 6px;
+
+}
+.likes .comm{
+    opacity: .5;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.likes input{
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    outline: none;
+}
+hr {
+    opacity: 0.5;
+}
+/* account */
+.profi{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: -100%;
+}
+.profi img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.profi .name b{
+    font-weight: 600;
+
+}
+.profi .name p{
+    opacity: 0.5;
+}
+.profi .swith{
+    color: blue;
+    margin: 6px;
+    font-size: 15px;
+}
+.link{
+    font-size: 10px;
+    opacity: 0.5;
+    margin-left: -100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.link a:hover{
+    text-decoration: underline;
+}
+.copyright a{
+    opacity: 0.5;
+    font-size: 14px;
+    margin-left: -100%;
+    cursor: pointer;
+}
+
+/* responsive */
+@media (max-width: 1200px){
+    .story{
+        display: flex;
+        align-items: center;
+      
+    }
+    .leo{
+        margin-left: -60%;
+    }
+   .profi{
+     margin-left: -200%;
+    }
+    .link{
+        margin-left: -200%;
+       }
+       .copyright{
+        margin-left: -50%;
+       }
+}
+@media (max-width: 1100px){
+    .menu{
+        width: 30px;
+        overflow: hidden;
+        display: flex;
+        
+        
+    }
+ 
+    .tittle i{
+        display: block;
+        font-size: 25px;
+        margin-left: 10px;
+    
+    }
+    /* home */
+.hom{
+    margin-top: 30px;
+    margin-right: 40px;
+}
+/* profile */
+
+.pro img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    align-items: center;
+    margin-right: 40px;
+
+
+}
+/* more */
+.more{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-right: 50%;
+
+}
+    ul li a{
+       padding-left: 10px;
+       gap: 40px;
+    }
+
+    .tittle h1{
+      display: none;
+    }
+    
+}
